@@ -1,4 +1,7 @@
 import Image from "next/image";
+import JobCard from "./components/JobCard";
+
+
 
 export default function Home() {
   return (
@@ -9,7 +12,7 @@ export default function Home() {
     </div>
     <div>
       <h1>Work Experience</h1>
-
+      <JobCard />
     </div>
     
     <div>
