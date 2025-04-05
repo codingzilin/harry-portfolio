@@ -3,8 +3,8 @@ import React from 'react'
 import { Button } from "@/components/ui/button"
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
 import { MdArrowOutward } from "react-icons/md";
+import PopOverInstagram from './PopOverInstagram';
 
 export default function ContactSection() {
   return (
@@ -23,7 +23,7 @@ export default function ContactSection() {
           onClick={() => window.open('https://www.linkedin.com/in/zilin-song', '_blank')}
           >
           <FaLinkedinIn />LinkedIn<MdArrowOutward /></Button>
-        <Button className='font-mono rounded-2xl' variant="outline"><FaInstagram />Instagram</Button>
+        <PopOverInstagram />
     </div></>
   )
 }
