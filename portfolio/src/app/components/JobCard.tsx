@@ -16,7 +16,7 @@ export default function JobCard() {
               Research Assistant
             </CardTitle>
             <CardDescription className='text-lg font-mono'>
-              12.2024-06.2024
+              12.2024-06.2025
             </CardDescription>
           </div>
         </CardHeader>
