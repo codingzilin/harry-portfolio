@@ -1,5 +1,6 @@
 // import Image from "next/image";
 import JobCard from "./components/JobCard";
+import ContactSection from "./components/ContactSection";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
 
       <div>
         <h1 className='font-mono text-2xl font-bold'>Connect</h1>
+        <ContactSection />
       </div>
     </div>
   );
