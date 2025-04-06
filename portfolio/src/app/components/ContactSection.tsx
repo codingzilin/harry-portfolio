@@ -9,7 +9,7 @@ import PopOverInstagram from './PopOverInstagram';
 export default function ContactSection() {
   return (
     <><div className='flex py-6'>
-      <p className='font-mono text-lg'>Feel free to contact me at harry.song518@outlook.com</p>
+      <p className='font-mono text-lg'>Feel free to contact me at <a href="mailto:harry.song518@outlook.com" className="underline hover:text-blue-500 transition-colors">harry.song518@outlook.com</a></p>
     </div>
     <div className='flex flex-row gap-4'>
         <Button 
