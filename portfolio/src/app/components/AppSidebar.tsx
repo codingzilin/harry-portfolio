@@ -9,18 +9,18 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from "@/components/ui/sidebar"
+} from "@/components/ui/sidebar";
 
 // Menu items.
 const items = [
   {
     title: "Home",
-    url: "#",
+    url: "/home",
     icon: LuHouse,
   },
   {
     title: "About Me",
-    url: "#",
+    url: "/about",
     icon: LuAtSign,
   },
   {
@@ -38,14 +38,16 @@ const items = [
   //   url: "#",
   //   icon: Settings,
   // },
-]
+];
 
 export function AppSidebar() {
   return (
     <Sidebar>
       <SidebarContent>
         <SidebarGroup>
-          <SidebarGroupLabel className='font-mono text-lg'>Side Menu</SidebarGroupLabel>
+          <SidebarGroupLabel className='font-mono text-lg'>
+            Side Menu
+          </SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu className='flex py-9'>
               {items.map((item) => (
@@ -63,5 +65,5 @@ export function AppSidebar() {
         </SidebarGroup>
       </SidebarContent>
     </Sidebar>
-  )
+  );
 }
