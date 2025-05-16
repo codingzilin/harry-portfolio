@@ -1,4 +1,3 @@
-// import Image from "next/image";
 "use client";
 import JobCard from "../components/JobCard";
 import ContactSection from "../components/ContactSection";

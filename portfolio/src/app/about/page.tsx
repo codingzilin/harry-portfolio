@@ -1,5 +1,5 @@
 import React from "react";
-
+import { SkillSlider } from "../components/SkillsSlider";
 export default function page() {
   return (
     <div>
@@ -13,6 +13,9 @@ export default function page() {
       </div>
       <div>
         <h1>Skills</h1>
+        <div>
+          <SkillSlider />
+        </div>
       </div>
     </div>
   );
