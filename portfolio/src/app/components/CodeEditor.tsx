@@ -7,7 +7,7 @@ export default function IntroCodeEditor() {
       cursor={true}
       title='Introduction.tsx'
       writing={false}
-      className='w-[640px] h-[480px]'
+      className='w-[640px] h-[400px]'
       duration={15}
       delay={0.5}
     >
