@@ -15,7 +15,7 @@ import {
 const items = [
   {
     title: "Home",
-    url: "/home",
+    url: "/",
     icon: LuHouse,
   },
   {
@@ -28,16 +28,6 @@ const items = [
     url: "#",
     icon: LuPackage,
   },
-  // {
-  //   title: "Search",
-  //   url: "#",
-  //   icon: Search,
-  // },
-  // {
-  //   title: "Settings",
-  //   url: "#",
-  //   icon: Settings,
-  // },
 ];
 
 export function AppSidebar() {
