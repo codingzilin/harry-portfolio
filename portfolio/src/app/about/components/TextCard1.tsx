@@ -14,9 +14,8 @@ export function TextCard1() {
           />
         </div>
         <div className='p-4 w-full relative z-10'>
-          <h1 className='font-mono leading-snug text-zinc-950 dark:text-zinc-50'>
-            I prioritize client collaboration and communication, fostering open
-            communication
+          <h1 className='font-mono text-xl leading-snug text-zinc-950 dark:text-zinc-50'>
+            I prioritize client collaboration, fostering open communication
           </h1>
         </div>
       </div>
