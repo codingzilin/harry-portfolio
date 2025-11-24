@@ -11,63 +11,63 @@ export default function JobCard() {
     <div className='flex flex-col gap-4'>
       <Card className='shadow-none'>
         <CardHeader>
-          <div className='flex flex-row items-center justify-between'>
-            <CardTitle className='text-lg font-mono'>
+          <div className='flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-0'>
+            <CardTitle className='text-base sm:text-lg font-mono'>
               Research Assistant
             </CardTitle>
-            <CardDescription className='text-lg font-mono'>
+            <CardDescription className='text-sm sm:text-lg font-mono'>
               12.2024-06.2025
             </CardDescription>
           </div>
         </CardHeader>
         <CardContent>
-          <p className='text-lg font-mono'>AIML</p>
+          <p className='text-sm sm:text-lg font-mono'>AIML</p>
         </CardContent>
       </Card>
 
       <Card className='shadow-none'>
         <CardHeader>
-          <div className='flex flex-row items-center justify-between'>
-            <CardTitle className='text-lg font-mono'>
+          <div className='flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-0'>
+            <CardTitle className='text-base sm:text-lg font-mono'>
               Front-end Developer
             </CardTitle>
-            <CardDescription className='text-lg font-mono'>
+            <CardDescription className='text-sm sm:text-lg font-mono'>
               06.2024-11.2024
             </CardDescription>
           </div>
         </CardHeader>
         <CardContent>
-          <p className='text-lg font-mono'>Luga AI</p>
+          <p className='text-sm sm:text-lg font-mono'>Luga AI</p>
         </CardContent>
       </Card>
 
       <Card className='shadow-none'>
         <CardHeader>
-          <div className='flex flex-row items-center justify-between'>
-            <CardTitle className='text-lg font-mono'>
+          <div className='flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-0'>
+            <CardTitle className='text-base sm:text-lg font-mono'>
               Front-end Developer
             </CardTitle>
-            <CardDescription className='text-lg font-mono'>
+            <CardDescription className='text-sm sm:text-lg font-mono'>
               11.2023-05.2024
             </CardDescription>
           </div>
         </CardHeader>
         <CardContent>
-          <p className='text-lg font-mono'>Rhizo Pty Ltd</p>
+          <p className='text-sm sm:text-lg font-mono'>Rhizo Pty Ltd</p>
         </CardContent>
       </Card>
 
       <Card className='shadow-none'>
         <CardHeader>
-          <div className='flex flex-row items-center justify-between'>
-            <CardTitle className='text-lg font-mono'>SAP Consultant</CardTitle>
-            <CardDescription className='text-lg font-mono'>
+          <div className='flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-0'>
+            <CardTitle className='text-base sm:text-lg font-mono'>SAP Consultant</CardTitle>
+            <CardDescription className='text-sm sm:text-lg font-mono'>
               08.2020-01.2023
             </CardDescription>
           </div>
         </CardHeader>
         <CardContent>
-          <p className='text-lg font-mono'>Deloitte</p>
+          <p className='text-sm sm:text-lg font-mono'>Deloitte</p>
         </CardContent>
       </Card>
     </div>

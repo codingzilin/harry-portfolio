@@ -35,11 +35,11 @@ export default function Home() {
           className='custom-rays'
         />
       </div>
-      <div className='relative z-10 w-[65%] md:w-[90%] lg:w-[65%] max-w-7xl mx-auto py-10 md:py-20 lg:py-28'>
+      <div className='relative z-10 w-full px-4 sm:px-6 md:w-[90%] lg:w-[65%] max-w-7xl mx-auto py-6 sm:py-10 md:py-20 lg:py-28'>
         <div className='flex flex-col'>
           <SplitText
             text='Harry Song'
-            className='text-4xl font-semibold font-mono'
+            className='text-2xl sm:text-3xl md:text-4xl font-semibold font-mono'
             delay={150}
             animationFrom={{ opacity: 0, transform: "translate3d(0,50px,0)" }}
             animationTo={{ opacity: 1, transform: "translate3d(0,0,0)" }}
@@ -49,22 +49,24 @@ export default function Home() {
             textAlign='left'
             onLetterAnimationComplete={handleAnimationComplete}
           />
-          <h2 className='font-mono text-xl md:text-2xl'>
+          <h2 className='font-mono text-lg sm:text-xl md:text-2xl mt-2'>
             Full Stack Developer
           </h2>
-          <p className='font-mono text-base md:text-lg pt-6 md:pt-10'>
+          <p className='font-mono text-sm sm:text-base md:text-lg pt-4 sm:pt-6 md:pt-10'>
             Focused on creating performant web experiences.
           </p>
         </div>
-        <div className='py-6 md:py-8'>
-          <h1 className='font-mono text-xl md:text-2xl font-bold pb-4 md:pb-6'>
+        <div className='py-4 sm:py-6 md:py-8'>
+          <h1 className='font-mono text-lg sm:text-xl md:text-2xl font-bold pb-3 sm:pb-4 md:pb-6'>
             Work Experience
           </h1>
           <JobCard />
         </div>
 
-        <div>
-          <h1 className='font-mono text-xl md:text-2xl font-bold'>Connect</h1>
+        <div className='pt-4 sm:pt-6'>
+          <h1 className='font-mono text-lg sm:text-xl md:text-2xl font-bold pb-3 sm:pb-4'>
+            Connect
+          </h1>
           <ContactSection />
         </div>
       </div>

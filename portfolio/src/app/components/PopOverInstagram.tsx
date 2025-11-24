@@ -14,10 +14,10 @@ export default function PopOverInstagram() {
     <div>
       <Popover>
         <PopoverTrigger>
-          <Button className='font-mono rounded-2xl' variant="outline"><FaInstagram />Instagram</Button>
+          <Button className='font-mono rounded-2xl text-sm sm:text-base' variant="outline"><FaInstagram />Instagram</Button>
         </PopoverTrigger>
-        <PopoverContent className="flex items-center justify-center w-auto">
-          <Image src='/instagram-QRcode.jpg' alt='instagram' width={200} height={200}/>
+        <PopoverContent className="flex items-center justify-center w-auto p-4">
+          <Image src='/instagram-QRcode.jpg' alt='instagram' width={200} height={200} className='w-full max-w-[200px] h-auto'/>
         </PopoverContent>
       </Popover>
     </div>
